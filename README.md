@@ -46,9 +46,9 @@ Download and install the Ham APRS module
 ```
 mkdir ~/src  
 cd ~/src  
-wget http://search.cpan.org/CPAN/authors/id/H/HE/HESSU/Ham-APRS-FAP-1.18.tar.gz  
-tar -zxvf ./Ham-APRS-FAP-1.18.tar.gz  
-cd Ham-APRS-FAP-1.18  
+wget http://search.cpan.org/CPAN/authors/id/H/HE/HESSU/Ham-APRS-FAP-1.19.tar.gz  
+tar -zxvf ./Ham-APRS-FAP-1.19.tar.gz  
+cd Ham-APRS-FAP-1.19 
 perl Makefile.PL  
 make  
 sudo make install 
@@ -121,7 +121,8 @@ arsed
 Install Apache webserver  
 ```
 apt-get install apache2 libapache2-mod-php5  
-cp ~/src/TRBO-NET/web/* /var/www/  
+cp ~/src/TRBO-NET/web/* /var/www/html
+cp ~/src/TRBO-NET/configs/arsed_state.json /var/tmp/
 ```
 
 connect turbo radio to Linux box using USB  

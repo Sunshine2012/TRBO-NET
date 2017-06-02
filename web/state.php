@@ -1,4 +1,4 @@
-<?
+<?php
 
 # use one of these methods to access arsed's state file:
 #$state_location = "http://turbo-gateway.example.com/trbo/arsed_state.json";
